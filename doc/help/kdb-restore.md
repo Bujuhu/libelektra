@@ -16,13 +16,13 @@ This command writes into the `/etc` directory and as such it requires root permi
 
 ## EXAMPLES
 
-```sh
-kdb set user:/tests/x foo
+```
+kdb set user:/x foo
 #>
-#> Create a new key user:/tests/x with string "foo"
-
-sudo kdb mount a.ini /a
-sudo kdb mount
+#> Create a new key user:/x with string "foo"
+ 
+kdb mount a.ini /a
+kdb mount
 #> a.ini on /a with name /a
 #> none on system:/info/elektra/constants with name system:/info/elektra/constants
 #> /usr/local/share/doc/elektra/CONTRACT.ini on system:/info/elektra/contract/#0 with name system:/info/elektra/contract/#0

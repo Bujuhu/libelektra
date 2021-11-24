@@ -356,6 +356,17 @@ This section keeps you up-to-date with the multi-language support provided by El
 - <<TODO>>
 - <<TODO>>
 - <<TODO>>
+- Added verification to the "Arrays" tutorial _(Ivaylo Ivanov)_
+- Remove deprecated `type=int` from `.ini` files _(Ivaylo Ivanov)_
+- Added verification to the "Validation" tutorial _(Ivaylo Ivanov)_
+- Fix some typos in the "Getting Started" page _(Ivaylo Ivanov)_
+- Added debian buster tutorial to python bindings tutorial _(@4ydan)_
+- Fixed some typos in the "namespaces.md" documentation _(@muskater)_
+- Fix an error and some overmatching problems in scripts/sed and fix errors in documentation
+  (by running the scripts/dev/fix-spelling script) _(Florian Lindner @flo91)_
+- Added some improvements to the core api documentation _(@muskater)_
+- Update and improve the CLion tutorial (doc/tutorials/contributing-clion.md), add screenshots _(@flo91)_
+- Improve example for kdb-restore man page and fix typos _(@JakobWonisch)_
 
 ## Tests
 
